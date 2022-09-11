@@ -15,19 +15,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">Login</h1>
-        <form>
-            <div class="input-div">
-                <label for="email">Email address</label>
-                <input type="email" id="email">
+    <div class="flex-container">
+        <div class="container">
+            <h1 class="title">Login</h1>
+            <div class="form-content">
+                <div class="input-div">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="input-div">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <span class="validation"></span>
+                </div>
+                <div class="input-div">
+                    <button type="submit" class="btn" onclick="submitbtn();">Submit</button>
+                </div>
             </div>
-            <div class="input-div">
-                <label for="password">Password</label>
-                <input type="password" id="password">
-            </div>
-            <button type="submit" class="btn">Submit</button>
-        </form>
+        </div>
     </div>
 
     <script src="js/script.js"></script>
